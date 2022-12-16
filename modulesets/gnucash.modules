@@ -344,7 +344,7 @@
 
  <cmake id="gnucash-git"
         cmakeargs="-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=ON -DGTEST_ROOT=${JHBUILD_SOURCE}/googletest">
-   <branch repo="github" module="jmatias/gnucash.git" revision="master"
+   <branch repo="github" module="jmatias/gnucash.git" revision="maint"
 	   checkoutdir="gnucash-git"/>
     <dependencies>
       <dep package="meta-gtk-osx-gtk3"/>
